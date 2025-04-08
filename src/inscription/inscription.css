@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+.img-marron {
+    width: 40px;
+}
+
+.nom {
+    background-color: transparent;
+    margin: 10px;
+    width: 200px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #91725d;
+
+}
+
+/* #E7272D */
+
+
+
+.backCConnexion {
+    background-color: white !important;
+    height: 450px;
+    width: 510px;
+    margin: auto;
+}
+
+.inscript1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.oublie {
+    color: #91725d;
+    cursor: pointer;
+}
+
+.email {
+    width: 350px;
+
+}
+
+
+.liens {
+    color: white;
+    background-color: #91725d;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 4px;
+    width: 350px;
+
+}
+
+.liens:hover {
+    background-color: #bbaca1;
+}
+
+.eyes {
+    position: relative;
+    right: 20px;
+}
+
+.postis {
+    display: flex;
+}
+
+
+@media screen and (max-width:768px) {
+    .auth {
+        flex-direction: column;
+    }
+
+    .eyes {
+        display: none;
+    }
+
+    .postis {
+        display: flex;
+    }
+
+    .input {
+        width: 300px;
+    }
+
+
+    .backCConnexion {
+        width: 100%;
+        height: 650px;
+
+    }
+
+}
+
+/* #502314 */
