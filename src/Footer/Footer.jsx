@@ -8,30 +8,9 @@ import { FaFacebook , FaWhatsapp , FaTiktok  , FaInstagram } from "react-icons/f
 import logo from "../Footer-img/log-remove.png";
 import { Link } from "react-router-dom";
 import logoMaron from "../assets/logoMaron.png";
-// import logoMaron from "../assets/logoMaron.png";
+
 export default function Footer() {
-  // const [email, setEmail] = useState("");
-
-  // const handleChange = (e) => {
-  //   setEmail(e.target.value);
-  // };
-
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   try {
-  //     const response = await axios.post("", {
-  //       email,
-  //     });
-  //     console.log("Réponse du backend:", response.data);
-  //     setEmail("");
-  //     toast.success("Vous êtes abonné avec succès à notre newsletter!");
-  //   } catch (error) {
-  //     console.error("Erreur lors de l'envoi de l'e-mail:", error);
-  //     toast.error("Une erreur est survenue. Veuillez réessayer.");
-  //     setEmail("");
-  //   }
-  // };
-
+  
   return (
     <footer>
       <div className="container-fluid bg">

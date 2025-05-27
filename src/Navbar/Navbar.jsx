@@ -3,9 +3,9 @@ import { FaHome, FaSearch, FaShoppingCart, FaUser } from "react-icons/fa";
 import { MdDashboard, MdOutlineRestaurantMenu } from "react-icons/md";
 import { PiWarningCircleLight } from "react-icons/pi";
 import logoMaron from "../assets/logoMaron.png";
-// import { NavLink } from "react-router-dom";
+ import { NavLink } from "react-router-dom";
 import "./Navbar.css";
- import { NavLink } from "react-bootstrap";
+  
 
 const Navbar = () => {
 
@@ -33,23 +33,23 @@ const Navbar = () => {
             <ul className="navbar-nav">
               <li className="nav-item d-flex align-items-center me-2">
                 <p className="fs-5 mt-2 icon-nav"><FaHome /></p>
-                <span className="ms-2 fw-bold"><NavLink>ACCUEIL</NavLink></span>
+                <span className="ms-2 fw-bold"><NavLink to="/accueil">ACCUEIL</NavLink></span>
               </li>
               <li className="nav-item d-flex align-items-center ms-3">
                 <p className="fs-5 mt-2 icon-nav"><MdOutlineRestaurantMenu /></p>
-                <span className="ms-1 fw-bold"><NavLink>MENU</NavLink></span>
+                <span className="ms-1 fw-bold"><NavLink to="/menu" >MENU</NavLink></span>
               </li>
               <li className="nav-item d-flex align-items-center ms-3">
                 <p className="fs-4 mt-2 icon-nav"><PiWarningCircleLight /></p>
-                <span className="ms-1 fw-bold"><NavLink>A PROPOS</NavLink></span>
+                <span className="ms-1 fw-bold"><NavLink to="/about">A PROPOS</NavLink></span>
               </li>
               <li className="nav-item d-flex align-items-center ms-3">
                 <p className="fs-5 mt-2 icon-nav"><MdDashboard /></p>
-                <span className="ms-1 fw-bold"><NavLink>RESERVATION</NavLink></span>
+                <span className="ms-1 fw-bold"><NavLink to="/reservation">RESERVATION</NavLink></span>
               </li>
               <li className="nav-item d-flex align-items-center ms-3">
                 <p className="fs-5 mt-2 icon-nav"><FaUser /></p>
-                <span className="ms-1 fw-bold"><NavLink>Connexion</NavLink></span>
+                <span className="ms-1 fw-bold"><NavLink to="/">Connexion</NavLink></span>
               </li>
               <li className="nav-item d-flex align-items-center ms-3">
                 <p className="fs-5 mt-2 icon-nav"><FaShoppingCart /></p>

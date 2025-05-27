@@ -77,6 +77,25 @@
 }
 
 
+.navbar-nav .nav-item a,
+button.liens a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+
+.navbar-nav .nav-item .active,
+button.liens .active {
+    color: #91725d !important;
+}
+
+
+.navbar-nav .nav-item a:hover,
+button.liens a:hover {
+    color: #91725d !important;
+}
+
+
 @media screen and (max-width:768px) {
     .auth {
         flex-direction: column;

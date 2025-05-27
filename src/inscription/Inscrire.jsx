@@ -4,6 +4,7 @@ import logoMaron from "../assets/logoMaron.png";
 import { ToastContainer } from "react-toastify";
 import "./inscrire.css";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
+ import { NavLink } from "react-router-dom";
 
 
 function Inscrire() {
@@ -13,7 +14,7 @@ function Inscrire() {
     <div>
       <div className="backCConnexion shadow d-flex justify-content-center my-5">
         <form className="form">
-          <img src={logoMaron} className="img-marron" alt="" />
+          <img src={logoMaron} className="img-marron d-flex m-auto" alt="" />
           <div className="color m-0 fw-bold">
             <h3 className="text-center">Créez votre compte</h3>
           </div>

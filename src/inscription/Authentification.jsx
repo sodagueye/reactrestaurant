@@ -1,7 +1,8 @@
 import React from 'react'
 import logoMaron from "../assets/logoMaron.png";
  import './inscription.css';
- import { Link } from 'react-router-dom';
+//  import { Link } from 'react-router-dom';
+  import { NavLink } from "react-router-dom";
 
 
 
@@ -12,7 +13,7 @@ function Authentification() {
       <div className=" d-flex justify-content-center align-items-center">
         <img src={logoMaron} className="logoMaron w-25" alt="" /> 
       </div>
-      <h2 className="text-center fw-bold fs-2 color">Connecter</h2>
+      <h2 className="text-center fw-bold fs-2 color"> Connecter </h2>
       <div className="inscript1">
         <input
           className="nom email"
@@ -51,15 +52,16 @@ function Authentification() {
           type="submit"
           className="liens align-items-center connect fs-5 fw-bold border-0"
         >
-          Se connecter
+          <NavLink to="/accueil">Se connecter</NavLink>
+          
         </button>
       </div>
 
       <div className="d-flex justify-content-center align-items-center gap-1 py-3">
         <p className="">Vous n'avez pas de compte ?</p>
-         <Link className="oublie">
+         <NavLink to="/inscrire" className="oublie ">
           s'inscrire
-        </Link>  
+        </NavLink>  
       </div>
     </form>
   </div>

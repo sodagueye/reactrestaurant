@@ -18,3 +18,17 @@
 .icon-nav{
     color: #91725d;
 }
+
+.navbar-nav .nav-item a {
+  color: rgb(56, 56, 56) !important;         
+  text-decoration: none !important; 
+   transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item a:hover {
+  color: #555; 
+}
+
+.navbar-nav .nav-item .active {
+  color: #555 !important;
+}
